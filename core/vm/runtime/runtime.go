@@ -21,12 +21,12 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/gregpr07/bsc/common"
+	"github.com/gregpr07/bsc/core/rawdb"
+	"github.com/gregpr07/bsc/core/state"
+	"github.com/gregpr07/bsc/core/vm"
+	"github.com/gregpr07/bsc/crypto"
+	"github.com/gregpr07/bsc/params"
 )
 
 // Config is a basic type specifying certain configuration flags for running

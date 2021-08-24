@@ -24,9 +24,9 @@ import (
 	"testing"
 
 	"github.com/VictoriaMetrics/fastcache"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/gregpr07/bsc/common"
+	"github.com/gregpr07/bsc/core/rawdb"
+	"github.com/gregpr07/bsc/rlp"
 )
 
 // randomHash generates a random blob of data and returns it as a hash.

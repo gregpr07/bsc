@@ -21,15 +21,15 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/light"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/rlp"
-	"github.com/ethereum/go-ethereum/trie"
+	"github.com/gregpr07/bsc/common"
+	"github.com/gregpr07/bsc/core/rawdb"
+	"github.com/gregpr07/bsc/core/types"
+	"github.com/gregpr07/bsc/crypto"
+	"github.com/gregpr07/bsc/ethdb"
+	"github.com/gregpr07/bsc/light"
+	"github.com/gregpr07/bsc/log"
+	"github.com/gregpr07/bsc/rlp"
+	"github.com/gregpr07/bsc/trie"
 )
 
 var (

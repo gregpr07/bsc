@@ -22,8 +22,8 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/math"
+	"github.com/gregpr07/bsc/common"
+	"github.com/gregpr07/bsc/common/math"
 )
 
 type JSONLogger struct {

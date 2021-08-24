@@ -33,12 +33,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum"
-	"github.com/ethereum/go-ethereum/accounts"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/gregpr07/bsc"
+	"github.com/gregpr07/bsc/accounts"
+	"github.com/gregpr07/bsc/common"
+	"github.com/gregpr07/bsc/core/types"
+	"github.com/gregpr07/bsc/crypto"
+	"github.com/gregpr07/bsc/log"
 	pcsc "github.com/gballet/go-libpcsclite"
 	"github.com/status-im/keycard-go/derivationpath"
 )

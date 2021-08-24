@@ -20,12 +20,12 @@ import (
 	"fmt"
 	"net"
 
-	"github.com/ethereum/go-ethereum/cmd/devp2p/internal/ethtest"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/internal/utesting"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/p2p/rlpx"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/gregpr07/bsc/cmd/devp2p/internal/ethtest"
+	"github.com/gregpr07/bsc/crypto"
+	"github.com/gregpr07/bsc/internal/utesting"
+	"github.com/gregpr07/bsc/p2p"
+	"github.com/gregpr07/bsc/p2p/rlpx"
+	"github.com/gregpr07/bsc/rlp"
 	"gopkg.in/urfave/cli.v1"
 )
 

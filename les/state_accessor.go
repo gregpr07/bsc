@@ -21,11 +21,11 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/light"
+	"github.com/gregpr07/bsc/core"
+	"github.com/gregpr07/bsc/core/state"
+	"github.com/gregpr07/bsc/core/types"
+	"github.com/gregpr07/bsc/core/vm"
+	"github.com/gregpr07/bsc/light"
 )
 
 // stateAtBlock retrieves the state database associated with a certain block.

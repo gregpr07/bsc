@@ -22,12 +22,12 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ethereum/go-ethereum/cmd/devp2p/internal/v4test"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/p2p/discover"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/gregpr07/bsc/cmd/devp2p/internal/v4test"
+	"github.com/gregpr07/bsc/common"
+	"github.com/gregpr07/bsc/crypto"
+	"github.com/gregpr07/bsc/p2p/discover"
+	"github.com/gregpr07/bsc/p2p/enode"
+	"github.com/gregpr07/bsc/params"
 	"gopkg.in/urfave/cli.v1"
 )
 

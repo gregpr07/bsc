@@ -27,11 +27,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common/mclock"
-	"github.com/ethereum/go-ethereum/internal/testlog"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/p2p/netutil"
+	"github.com/gregpr07/bsc/common/mclock"
+	"github.com/gregpr07/bsc/internal/testlog"
+	"github.com/gregpr07/bsc/log"
+	"github.com/gregpr07/bsc/p2p/enode"
+	"github.com/gregpr07/bsc/p2p/netutil"
 )
 
 // This test checks that dynamic dials are launched from discovery results.

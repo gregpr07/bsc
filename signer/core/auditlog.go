@@ -20,10 +20,10 @@ import (
 	"context"
 	"encoding/json"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/internal/ethapi"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/gregpr07/bsc/common"
+	"github.com/gregpr07/bsc/common/hexutil"
+	"github.com/gregpr07/bsc/internal/ethapi"
+	"github.com/gregpr07/bsc/log"
 )
 
 type AuditLogger struct {

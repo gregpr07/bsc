@@ -39,9 +39,9 @@ import (
 	"github.com/oxtoacart/bpool"
 	"golang.org/x/crypto/sha3"
 
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/crypto/ecies"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/gregpr07/bsc/crypto"
+	"github.com/gregpr07/bsc/crypto/ecies"
+	"github.com/gregpr07/bsc/rlp"
 )
 
 var snappyCache *fastcache.Cache

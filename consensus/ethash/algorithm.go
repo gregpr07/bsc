@@ -27,11 +27,11 @@ import (
 	"time"
 	"unsafe"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/bitutil"
-	"github.com/ethereum/go-ethereum/common/gopool"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/gregpr07/bsc/common"
+	"github.com/gregpr07/bsc/common/bitutil"
+	"github.com/gregpr07/bsc/common/gopool"
+	"github.com/gregpr07/bsc/crypto"
+	"github.com/gregpr07/bsc/log"
 	"golang.org/x/crypto/sha3"
 )
 

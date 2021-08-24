@@ -21,13 +21,13 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/gopool"
-	"github.com/ethereum/go-ethereum/common/prque"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/gregpr07/bsc/common"
+	"github.com/gregpr07/bsc/common/gopool"
+	"github.com/gregpr07/bsc/common/prque"
+	"github.com/gregpr07/bsc/core/types"
+	"github.com/gregpr07/bsc/ethdb"
+	"github.com/gregpr07/bsc/log"
+	"github.com/gregpr07/bsc/rlp"
 )
 
 // InitDatabaseFromFreezer reinitializes an empty database from a previous batch

@@ -27,13 +27,13 @@ import (
 
 	"gopkg.in/urfave/cli.v1"
 
-	"github.com/ethereum/go-ethereum/cmd/utils"
-	"github.com/ethereum/go-ethereum/eth/catalyst"
-	"github.com/ethereum/go-ethereum/eth/ethconfig"
-	"github.com/ethereum/go-ethereum/internal/ethapi"
-	"github.com/ethereum/go-ethereum/metrics"
-	"github.com/ethereum/go-ethereum/node"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/gregpr07/bsc/cmd/utils"
+	"github.com/gregpr07/bsc/eth/catalyst"
+	"github.com/gregpr07/bsc/eth/ethconfig"
+	"github.com/gregpr07/bsc/internal/ethapi"
+	"github.com/gregpr07/bsc/metrics"
+	"github.com/gregpr07/bsc/node"
+	"github.com/gregpr07/bsc/params"
 	"github.com/naoina/toml"
 )
 

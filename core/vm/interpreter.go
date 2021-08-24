@@ -21,9 +21,9 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/math"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/gregpr07/bsc/common"
+	"github.com/gregpr07/bsc/common/math"
+	"github.com/gregpr07/bsc/log"
 )
 
 var EVMInterpreterPool = sync.Pool{

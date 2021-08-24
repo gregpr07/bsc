@@ -25,10 +25,10 @@ import (
 	"io"
 	"sync"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/gregpr07/bsc/common"
+	"github.com/gregpr07/bsc/ethdb"
+	"github.com/gregpr07/bsc/log"
+	"github.com/gregpr07/bsc/rlp"
 )
 
 var ErrCommitDisabled = errors.New("no database for committing")

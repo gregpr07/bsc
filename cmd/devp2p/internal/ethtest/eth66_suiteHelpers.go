@@ -21,11 +21,11 @@ import (
 	"reflect"
 	"time"
 
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/eth/protocols/eth"
-	"github.com/ethereum/go-ethereum/internal/utesting"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/gregpr07/bsc/core/types"
+	"github.com/gregpr07/bsc/eth/protocols/eth"
+	"github.com/gregpr07/bsc/internal/utesting"
+	"github.com/gregpr07/bsc/p2p"
+	"github.com/gregpr07/bsc/rlp"
 	"github.com/stretchr/testify/assert"
 )
 

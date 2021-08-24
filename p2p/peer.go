@@ -25,14 +25,14 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common/gopool"
-	"github.com/ethereum/go-ethereum/common/mclock"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/metrics"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/p2p/enr"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/gregpr07/bsc/common/gopool"
+	"github.com/gregpr07/bsc/common/mclock"
+	"github.com/gregpr07/bsc/event"
+	"github.com/gregpr07/bsc/log"
+	"github.com/gregpr07/bsc/metrics"
+	"github.com/gregpr07/bsc/p2p/enode"
+	"github.com/gregpr07/bsc/p2p/enr"
+	"github.com/gregpr07/bsc/rlp"
 )
 
 var (

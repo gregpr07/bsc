@@ -29,13 +29,13 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common/gopool"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/p2p/discover/v4wire"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/p2p/netutil"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/gregpr07/bsc/common/gopool"
+	"github.com/gregpr07/bsc/crypto"
+	"github.com/gregpr07/bsc/log"
+	"github.com/gregpr07/bsc/p2p/discover/v4wire"
+	"github.com/gregpr07/bsc/p2p/enode"
+	"github.com/gregpr07/bsc/p2p/netutil"
+	"github.com/gregpr07/bsc/rlp"
 )
 
 // Errors

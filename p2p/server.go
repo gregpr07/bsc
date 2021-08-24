@@ -29,17 +29,17 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/gopool"
-	"github.com/ethereum/go-ethereum/common/mclock"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/p2p/discover"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/p2p/enr"
-	"github.com/ethereum/go-ethereum/p2p/nat"
-	"github.com/ethereum/go-ethereum/p2p/netutil"
+	"github.com/gregpr07/bsc/common"
+	"github.com/gregpr07/bsc/common/gopool"
+	"github.com/gregpr07/bsc/common/mclock"
+	"github.com/gregpr07/bsc/crypto"
+	"github.com/gregpr07/bsc/event"
+	"github.com/gregpr07/bsc/log"
+	"github.com/gregpr07/bsc/p2p/discover"
+	"github.com/gregpr07/bsc/p2p/enode"
+	"github.com/gregpr07/bsc/p2p/enr"
+	"github.com/gregpr07/bsc/p2p/nat"
+	"github.com/gregpr07/bsc/p2p/netutil"
 )
 
 const (

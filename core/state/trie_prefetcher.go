@@ -19,10 +19,10 @@ package state
 import (
 	"sync"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/gopool"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/metrics"
+	"github.com/gregpr07/bsc/common"
+	"github.com/gregpr07/bsc/common/gopool"
+	"github.com/gregpr07/bsc/log"
+	"github.com/gregpr07/bsc/metrics"
 )
 
 const abortChanSize = 64
